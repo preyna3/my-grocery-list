@@ -63,7 +63,9 @@ body {
     margin-top: 2em;
     border-radius: 0.5em;
     background-color: var(--comment);
+    width: 25em;
 }
+
 .groceryItem {
     background-color: white;
     color: var(--background);
