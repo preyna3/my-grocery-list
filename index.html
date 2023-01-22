@@ -10,8 +10,9 @@
         <link rel="stylesheet" href="reset.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
+        <script type="module" src="scripts.js"></script>
     </head>
 <body>
     <h1 class="title">My Grocery List 📝</h1>
@@ -22,12 +23,11 @@
         placeholder="Add an item to your list" 
         id="newGrocery" />
         <button id="addBtn" type="submit">Add</button>
-        <ul id="groceryList">
-            <li class="groceryItem">Milk</li>
-            <li class="groceryItem">Eggs</li>
-            <li class="groceryItem">Tortillas</li>
-        </ul>
     </form>
+    
+    <ul id="groceryList" >
+    </ul>
+    
 </body>
 
 </html>
